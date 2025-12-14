@@ -23,6 +23,9 @@ This plugin replaces remote radio stream URLs with a **local signed PHP proxy en
 - Content-Type passthrough from upstream
 - Compatible with Cloudflare and reverse proxies
 -  No nginx or PHP-FPM special config required (recommended but not mandatory)
+👉 **Nginx & PHP-FPM configuration:**  
+[NGINX_PHP_FPM.md](https://github.com/lukapaunovic/wp-radio-stream-proxy/blob/main/NGINX_PHP_FPM.md)
+
 
 ---
 
@@ -121,10 +124,6 @@ Only valid, generated URLs can be used.
 
 ---
 
-👉 **Nginx & PHP-FPM configuration guide: (Optional but more stable)**  
-https://github.com/lukapaunovic/wp-radio-stream-proxy/blob/main/NGINX_PHP_FPM.md
-
----
 
 ## 📄 License
 
