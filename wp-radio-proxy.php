@@ -2,7 +2,7 @@
 /**
  * Plugin Name: wpradio PHP Stream Proxy
  * Description: Secure PHP stream proxy with ICY stripping + HTTP/0.9 support + upstream Content-Type passthrough
- * Author: Luka / Codex
+ * Author: Luka
  */
 
 if (!defined('ABSPATH')) exit;
