@@ -1,4 +1,4 @@
-# EXYU WP Radio Stream Proxy
+# WP Radio Stream Proxy
 
 Secure PHP-based stream proxy for **WP Radio** WordPress plugin.  
 Built to reliably handle real-world radio streams including:
@@ -79,7 +79,7 @@ wp-content/mu-plugins/
 
 or
 
-wp-content/plugins/exyu-wp-radio-stream-proxy/
+wp-content/plugins/wp-radio-stream-proxy/
 
 2. Make sure the directory exists:
 mkdir -p wp-content/mu-plugins
@@ -118,6 +118,11 @@ Only valid, generated URLs can be used.
 - Legacy HTTP/0.9 endpoints
 - Chrome / Safari / Firefox
 - Cloudflare proxied sites
+
+---
+
+👉 **Nginx & PHP-FPM configuration guide: (Optional but more stable)**  
+https://github.com/lukapaunovic/wp-radio-stream-proxy/blob/main/NGINX_PHP_FPM.md
 
 ---
 
